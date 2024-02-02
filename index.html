@@ -6,8 +6,15 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="welcome" style="margin:50px">
     <h1>Alice's Cafe</h1>
-    <div id="container">
+    <h3>Welcome in! Enjoy the sounds of a Parisian cafe while scrolling through our menu.<br>
+      <audio controls>
+        <source src="cafesounds.mp3" type="audio/mp3">
+      </audio>
+    </h3>
+    </div>
+    <div id="container" style="margin:50px">
       <div id="main">
         <h2 class="pink">Mains</h2>
         <ul>
@@ -15,6 +22,7 @@
           <li>Lasagna</li>
           <li>Buns</li>
         </ul>
+        <img class="main-image" src="mainbackground.jpg"/>
       </div>
       <div id="sidebar">
         <h2 class="pink">Snacks</h2>
@@ -29,5 +37,6 @@
         </ul>
       </div>
     </div>
+    <button style="margin: 50px";>Order online!</button>
   </body>
 </html>
